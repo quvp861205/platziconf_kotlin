@@ -3,7 +3,7 @@
 xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
-tools:context=".ui.fragments.Speakers.SpeakersFragment">
+tools:context=".view.ui.fragments.Speakers.SpeakersFragment">
 
 <androidx.recyclerview.widget.RecyclerView
     android:id="@+id/rvSpeakers"
@@ -12,7 +12,7 @@ tools:context=".ui.fragments.Speakers.SpeakersFragment">
     />
 
 <RelativeLayout
-    android:id="@+id/rlBase"
+    android:id="@+id/rlBaseSpeaker"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <View

@@ -15,6 +15,7 @@
 
         <!-- POST -->
         <ImageView
+            android:id="@+id/ivItemSpeakerImage"
             android:layout_width="match_parent"
             android:layout_height="@dimen/altoImageViewHome"
             android:baselineAligned="false"
@@ -29,6 +30,7 @@
             android:baselineAligned="false" />
 
         <TextView
+            android:id="@+id/tvItemSpeakerName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="nombre expositor"
@@ -44,6 +46,7 @@
             android:background="@color/colorPrimary" />
 
         <TextView
+            android:id="@+id/tvItemSpeakerWork"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Trabajo expositor"
