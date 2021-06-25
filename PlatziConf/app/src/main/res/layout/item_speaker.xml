@@ -11,13 +11,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp">
 
         <!-- POST -->
         <ImageView
             android:id="@+id/ivItemSpeakerImage"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/altoImageViewHome"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
             android:baselineAligned="false"
             android:contentDescription="@string/todo"
             android:src="@mipmap/ic_launcher"
