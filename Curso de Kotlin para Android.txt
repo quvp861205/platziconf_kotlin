@@ -1,0 +1,129 @@
+Puedes revisar y  las respuestas. Al terminar presiona “Calificar respuestas” para enviar las preguntas y conocer tu puntuación.
+1.
+¿Cuáles son los dos datos indispensables para un marcador en google maps?
+Latitud y longitud.
+
+2.
+¿Los textos se centralizan en un archivo strings.xml por cada idioma al que se quiera dar soporte?
+Falso
+
+3.
+¿Para qué parte está destinado utilizar CoordinatorLayout?
+Destinado a ser el diseño de nivel superior.
+
+4.
+¿Cuál es la capa de la arquitectura del sistema operativo en la cuál nosotros interactuamos como desarrolladores?
+Java API Framework.
+
+5.
+Nos permite crear una lista de elementos con eventos especiales
+RecycleView
+
+6.
+¿Qué es ViewModel?
+Es una clase que permite que los datos sobrevivan a los cambios de configuración de la pantalla.
+
+7.
+¿Qué método nos permite detectar los eventos de una animación?
+.setAnimationListener(...)
+
+8.
+¿En qué dispositivos se puede depurar una aplicación Android?
+Emulador, dispositivo físico
+
+9.
+¿Cómo se llama la Base de Datos que utilizamos en el curso?
+Cloud Firestore
+
+10.
+¿Qué componente de una aplicación Android nos permite detectar eventos del teléfono?
+Broadcast receiver
+
+11.
+¿Cuáles son los dos atributos indispensables en un View o ViewGroup?
+android:layout_width y android:layout_height.
+
+12.
+¿Qué es lo más importante del SDK de Android?
+
+Los Android SDK Platform.
+
+13.
+¿Cómo es la etiqueta que nos permite colocar la clave única generada en la consola de Google Cloud para utilizar Google Maps?
+<meta-data android:name="com.google.android.geo.API_KEY" android:value="@string/google_maps_key" />
+
+14.
+¿Qué es LiveData?
+Es una clase de retención de datos observable.
+
+15.
+¿Kotlin tiene interoperabilidad con Java?
+Verdadero
+
+16.
+¿Cuáles son los 3 archivos de configuración de una aplicación Android?
+AndroidManifest.xml, build.gradle (module app) y build.gradle (project).
+
+17.
+¿Qué nombre tiene la carpeta donde se crean los archivos de tipo animación?
+/anim
+
+18.
+¿Es necesario crear getters y setters para la creación de objetos en Kotlin?
+Ya no es necesario.
+
+19.
+¿De qué clase debe heredar nuestro Fragmento para convertirse en un Diálogo?
+DialogFragment()
+
+20.
+¿Qué es Android Jetpack?
+Jetpack es un conjunto de herramientas y guías para ayudar a los desarrolladores a escribir apps de alta calidad de forma más sencilla.
+
+21.
+¿Cuál es la diferencia entre llamar o referenciar a un recurso de tipo string con '@string/mi_texto' o '@android:string/title'?
+@string/mi_texto es un recurso local que se encuentra dentro el proyecto. @android:string/title es un recurso del sistema que podemos reutilizar.
+
+22.
+¿Qué componente de Jetpack nos permite realizar una navegación entre pantallas efectiva?
+Navigation
+
+23.
+¿En qué función del adaptador de un RecyclerView se cargan los datos a nuestra vista?
+onBindViewHolder(...)
+
+24.
+¿Cuál es la diferencia entre Material Design y Material Components?
+Material Design es la guia de diseño que debemos seguir. Material Components son los widgets o componentes listos para usar
+
+25.
+¿Cuál es la característica principal de ConstraintLayout?
+Crear un diseño plano con varios hijos.
+
+26.
+¿es una característica de Kotlin?
+Seguridad nula.
+Conciso reduciendo codigo
+Seguro trabajando con NullPointerException
+Interoperable compartiendo maquina virtual de Java
+Versátil al trabajar con Kotlin Server Side - Ktor, del lado Mobile Android y del lado web con KotlinJS
+
+27.
+¿Qué es MVVM?
+Es una arquitectura de componentes (Model View ViewModel).
+
+28.
+¿Cuáles son los 3 métodos que se ejecutan al iniciar una nueva Activity? Elige el orden correcto:
+onCreate(), onStart() y onResume().
+
+29.
+¿Cómo se llama el objeto sobre el cuál se pueden agregar características a un mapa?
+GoogleMap
+
+30.
+¿Cuántos items u opciones debe tener como máximo y mínimo un BottonNavigationView?
+Máximo 5 items y mínimo 3 items.
+
+31.
+¿Por qué ART es mucho más recomendado como máquina virtual de Android?
+Porque tiene una compilación ahead-of-time (antes de tiempo).
